@@ -1,0 +1,497 @@
+/* PADRONIZA AS TAGS */
+* {
+	margin: 0px;
+	padding: 0px;
+	font: 14px sans-serif;
+}
+
+.fundoMenu {
+	background-color: #00A2E8;
+}
+
+.fundoMenu img {
+	width: 200px;
+}
+
+.nav-item>a {
+	color: #fff;
+}
+
+.navbar-toggler {
+	background-color: #fff;
+}
+
+.navbar-toggler-icon {
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+
+header img {
+	float: left;
+	height: 50px;
+}
+
+header nav {
+	float: right;
+}
+
+header a {
+	padding: 20px 15px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+header a:hover {
+	background-color: #782185;
+	color: white;
+}
+
+b {
+	margin: 10px;
+	color: #782185;
+	font: 40px sans-serif;
+	font-weight: bold;
+}
+
+body {
+	background-color: white;
+}
+
+form {
+	margin: 10px;
+}
+
+form a {
+	font: 18px sans-serif;
+}
+
+form input[type=text] {
+	width: 350px;
+	height: 30px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+form input[type=password] {
+	width: 350px;
+	height: 30px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+form input[type=text]:focus {
+	border: 3px solid #782185;
+}
+
+form input[type=password]:focus {
+	border: 3px solid #782185;
+}
+
+form input[type=submit] {
+	width: 250px;
+	height: 50px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	color: #782185;
+}
+
+form input[type=submit]:hover {
+	color: #782185;
+	border: 3px solid #782185;
+}
+
+/* Imagem de Fundo */
+
+.background {
+    background-image: url(imagens/background.png);
+}
+
+/* Formulário de Login */
+.formularioLogin {
+	overflow: hidden;
+	text-align: center;
+	margin: 150px auto;
+}
+
+.formularioLogin form {
+	display: inline-table;
+}
+
+.formularioLogin div {
+	margin-top: 10px;
+}
+
+.formularioLogin h1 {
+	font-size: 30px;
+	color: #782185;
+	font-weight: bold;
+}
+
+.formularioLogin a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.formularioLogin input[type="text"] {
+	width: 350px;
+	height: 30px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.formularioLogin input[type="password"] {
+	width: 350px;
+	height: 30px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.formularioLogin input[type="submit"] {
+	font-size: 20px;
+	width: 100px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	color: #782185;
+	background-color: #fff;
+}
+
+.formularioLogin input:focus {
+	color: 782185;
+	border: 3px solid #782185;
+	outline: 0;
+}
+
+.formularioLogin select {
+	width: 350px;
+	height: 30px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	outline: 0;
+}
+
+.formularioLogin select:hover {
+	color: black;
+	border: 3px solid #782185;
+	outline: 0;
+}
+
+/* Formulário de Cadastro */
+
+.formularioCadastro {
+	overflow: hidden;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.formularioCadastro form {
+	display: inline-table;
+}
+
+.formularioCadastro div {
+	margin-top: 10px;
+}
+
+.formularioCadastro h1 {
+	font-size: 30px;
+	color: #782185;
+	font-weight: bold;
+}
+
+.formularioCadastro a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.formularioCadastro input[type="text"] {
+	width: 350px;
+	height: 30px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.formularioCadastro input[type="email"] {
+	width: 350px;
+	height: 30px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.formularioCadastro input[type="password"] {
+	width: 350px;
+	height: 30px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.formularioCadastro textarea {
+	width: 350px;
+	height: 150px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	background-color: #fff;
+	outline: 0;
+	resize: none;
+}
+
+.formularioCadastro textarea:focus {
+	color: black;
+	border: 3px solid #782185;
+	outline: 0;
+}
+
+.formularioCadastro input[type="date"] {
+	width: 350px;
+	height: 30px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.formularioCadastro input[type="submit"] {
+	margin-top: 10px;
+	font-size: 20px;
+	width: 230px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	color: #782185;
+	background-color: #fff;
+	margin-top: 40px;
+}
+
+.formularioCadastro input:focus {
+	color: black;
+	border: 3px solid #782185;
+	outline: 0;
+}
+
+.formularioCadastro select {
+	width: 350px;
+	height: 30px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	outline: 0;
+}
+
+.formularioCadastro select:hover {
+	color: black;
+	border: 3px solid #782185;
+	outline: 0;
+}
+
+/* Links */
+.link a {
+	font-size: 15px;
+	color: #782185;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.link a:hover {
+	color: #00A2E8;
+}
+
+/* IMAGENS INDEX  */
+.col-md-6 h1 {
+	font-size: 30px;
+	color: #782185;
+	font-weight: bold;
+}
+
+.col-md-6 .img1 {
+	width: 320px;
+	height: 242px;
+}
+
+.col-md-6 .img2 {
+	width: 200px;
+	height: 200px;
+}
+
+.col-md-6 .img3 {
+	width: 165px;
+	height: 120px;
+}
+
+.col-md-6 p {
+	font-size: 15px;
+	color: black;
+}
+
+.espacamento {
+	margin-top: 80px;
+}
+
+/* Padrões de Espaçamentos */
+.espacamento2 {
+	margin-top: 80px;
+}
+
+.espacamento3 {
+	margin-top: 20px;;
+}
+
+.espacamentoImagens {
+	margin-top: 120px;
+}
+
+/* Padrão de Página */
+.saibaMais {
+	font-size: 20px;
+	width: 120px;
+	border: 2px solid #782185;
+	border-radius: 10px;
+	color: #782185;
+	background-color: #fff;
+	outline: 0;
+}
+
+.saibaMais:hover {
+	color: #00A2E8;
+	border: 2px solid #00A2E8;
+	outline: 0;
+}
+
+/* Titulos */
+.titulo {
+	font-size: 30px;
+	color: #782185;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Fundos dos formularios de login e cadastro */
+.contain {
+	width: 100%;
+	height: 100%;
+}
+
+.contain2 {
+	width: 400px;
+	height: 290px;
+}
+
+.contain3 {
+	width: 400px;
+	height: 515px;
+}
+
+.contain4 {
+	width: 400px;
+	height: 485px;
+}
+
+.contain5 {
+	width: 400px;
+	height: 635px;
+}
+
+.contain6 {
+	width: 760px;
+	height: 565px;
+}
+
+.contain7 {
+	width: 1200px;
+	height: 475px;
+}
+
+.contain8 {
+	width: 400px;
+	height: 645px;
+}
+
+.box {
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #00A2E8;
+	opacity: 0.9;
+}
+
+.fundo form {
+    height: 400px;
+}
+
+.fundo2 form {
+    height: 540px;
+}
+
+/* Rodapé */
+.footer {
+	position: absolute;
+	text-align: center;
+	background-color: #00A2E8;
+	bottom: 0;
+	width: 100%;
+}
+
+.footerIndex {
+	position: inherit;
+	text-align: center;
+	background-color: #00A2E8;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Titulos 2 */
+.titulo2 h1 {
+	font-size: 30px;
+	color: #00A2E8;
+	font-weight: bold;
+	margin-top: 45px;
+}
+
+.titulo2 {
+	text-align: center;
+}
+
+.div1 {
+	float: left;
+}
+
+.div2 {
+	float: right;
+}
+
+.cadastroProduto a {
+	font-size: 17px;
+	color: #782185;
+}
+
+.tabela {
+	width: 1000px;
+	margin: 30px auto;
+	border: solid 2px black;
+	border-radius: 8px;
+	padding: 10px;
+	background-color: white;
+}
+
+.tabela td {
+	padding: 5px;
+	width: 250px;
+}
+
+.tabela tr:nth-child(even) {
+	background-color: #00A2E8;
+}
+
+.tabela tr:first-child {
+	background-color: black;
+	color: #fff;
+}
+
+.cadastroFuncionario a{
+	font-size: 17px;
+	color: #782185;
+}
+
+.cadastroPaciente a{
+	font-size: 17px;
+	color: #782185;
+}
